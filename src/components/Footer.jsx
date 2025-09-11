@@ -3,21 +3,13 @@ import EnquiryForm from './EnquiryForm'
 export default function Footer() {
   return (
     <footer className='bg-gradient-to-r from-slate-900 to-slate-800 text-white mt-8'>
-      <div className='max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-6'>
+      <div className='max-w-6xl mx-auto px-4 py-12 flex gap-20'>
         <div>
           <h3 className='text-sky-400 font-bold mb-3'>About LexanaVeriLex</h3>
           <p className='text-sm text-slate-300'>Lexana Verilex offers online legal education platform, helping students and professionals advance their legal careers through advanced courses and practical training.</p>
           <p className='mt-3 text-sm text-slate-300'><strong>Address:</strong><br/>J & K, Dilshad Garden, Delhi, India</p>
         </div>
-        <div>
-          <h3 className='text-sky-400 font-bold mb-3'>Quick Links</h3>
-          <ul className='text-sm space-y-2 text-slate-300'>
-            <li>Courses</li>
-            <li>Webinars</li>
-            <li>Manifesto</li>
-            <li>Updates</li>
-          </ul>
-        </div>
+      
         <div>
           <h3 className='text-sky-400 font-bold mb-3'>Quick Enquiry</h3>
           <EnquiryForm />
